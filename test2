@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CourtSO.com</title>
+    <!------------------------------------------------------------------>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .navbar {
+            background-image: url(logo-no-background.png);
+        }
+
+        .container {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.856), rgba(168, 76, 202, 0.289)), url(back.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 120vh;
+            width: 100%;
+            overflow: auto;
+        }
+
+        nav {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+
+        .logo {
+            padding-left: 5%;
+            padding-top: 1%;
+            cursor: pointer;
+        }
+
+        nav ul {
+            list-style: none;
+            width: 100%;
+            text-align: right;
+            padding-right: 60px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 10px 20px;
+            transform: translateX(-120px);
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: large;
+            font-weight: 500;
+            margin:0 10px 0 10px;
+            padding: 8px;
+        }
+
+        button {
+            margin-right: 5%;
+            padding: 15px 25px;
+            white-space: nowrap;
+            background-color: blueviolet;
+            color: white;
+            border: 0;
+            font-size: medium;
+            border-radius: 10px;
+        }
+        
+        .content{
+            margin-top: 11%;
+            color:#fff;
+            max-width: 628px;
+            transform: scale(1.2) translateX(100px);
+        }
+        .content h1{
+            font-size: 50px;
+            line-height: 60px;
+            margin-bottom: 25px;
+        }
+        .content form{
+            display: flex;
+            align-items: center;
+            background: white;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 30px;
+        }
+        .content form input{
+            border: 0;
+            outline:0 ;    
+            font-size: 17px;
+            padding-left: 10px;
+            padding-right: 2px;
+            width: 100%;
+        }
+        
+        /*----------- Hovers---------- */
+        .btn1:hover {
+            background-color: rgb(17, 132, 93);
+            color: aqua;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: rgb(0, 0, 0);
+            background-color: blueviolet;
+            border-radius: 5px;
+            padding: 7px;
+            transition: 0.3s;
+        
+        }
+        #btn2:hover{
+            background-color: rgb(17, 132, 93);
+            color: aqua;
+            transition: 0.3s;
+        }
+        
+
+       
+    </style>
+    <!-- --------------------STYLE--------------------------- -->
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <img src="logo-no-background.png" class="logo" height="120px" width="190px" />
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">BUDGET</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">HELP</a></li>
+            </ul>
+            <button class="btn1">SIGN IN!</button>
+        </nav>
+        <div class="content">
+            <h1>Wanna Trade?<br>Why Not Start TODAY!</h1>
+            <p>Market's ups and downs are something that will never stop but if you want to know how to analyse them, then this is the perfect place to begin.</p>
+            <form>
+                <input type="text" placeholder="Country name...">
+                <button type="submit" id="btn2">Search</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+
+</html>
