@@ -12,7 +12,7 @@ nav{
     justify-content: space-between;
     margin:0 0px;
     padding: 0px 50px;
-    height: 57px;
+    height: 30%;
     align-items: center;
     z-index: 2;
     position: sticky;
@@ -49,7 +49,7 @@ nav ul li a:hover{
 .container{
     padding: 100px 0 30px 100px;
     height: 110vh;
-    width: 1020px;
+    width:100%;
     background-color: rgb(79, 74, 74);
     background-image:linear-gradient(to right, rgba(0, 0, 0, 0.813),rgba(0, 0, 0, 0.118)), 
     url("pexels-vanessa-loring-5965988.jpg");
@@ -120,7 +120,7 @@ nav ul li a:hover{
    grid-template-columns: 200px 500px;
    grid-template-rows:100px 200px ;
    grid-gap: 30px 100px;
-   
+   width:100%;
 }
 .row1 h2{
     
